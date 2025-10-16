@@ -88,17 +88,19 @@ function App() {
     };
   }, []);
 
+  // {counter !== 0 ? (
+  //       <p>
+  //         <b>{counter}</b> {counter === 1 ? "person" : "people"} connected.
+  //       </p>
+  //     ) : (
+  //       <p>&nbsp;</p>
+  //     )}
+
   return (
     <div className="App">
       <h1>Find Luxury Resorts</h1>
       <p>AI-powered search for the world’s best resorts. Coming soon.</p>
-      /* {counter !== 0 ? (
-        <p>
-          <b>{counter}</b> {counter === 1 ? "person" : "people"} connected.
-        </p>
-      ) : (
-        <p>&nbsp;</p>
-      )} */
+      
 
       {/* The canvas where we'll render the globe */}
       <canvas
